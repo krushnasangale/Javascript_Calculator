@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="script" href="script.js">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+
+        <input type="text" id="screen">
+
+        <table>
+            <tr>
+                <td><button onclick="getInput(7)">7</button></td>
+                <td><button onclick="getInput(8)">8</button></td>
+                <td><button onclick="getInput(9)">9</button></td>
+                <td><button onclick="getInput('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getInput(4)">4</button></td>
+                <td><button onclick="getInput(5)">5</button></td>
+                <td><button onclick="getInput(6)">6</button></td>
+                <td><button onclick="getInput('-')">-</button></td>             
+            </tr>
+            <tr>
+                <td><button onclick="getInput(1)">1</button></td>
+                <td><button onclick="getInput(2)">2</button></td>
+                <td><button onclick="getInput(3)">3</button></td>
+                <td><button onclick="getInput('x')">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="getInput('00')">00</button></td>
+                <td><button onclick="getInput(0)">0</button></td>
+                <td><button onclick="getInput('.')">.</button></td>
+                <td><button onclick="getInput('+')">+</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="getInput('Clr')" id="btn1">Clr</button></td>
+                <td colspan="2"><button onclick="getInput('=')" id="btn2">=</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
